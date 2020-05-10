@@ -41,7 +41,7 @@ def add_s(collection)
   collection.delete_at(2)
   new_collection = []
   collection.each do |item|
-    new_collection<< item + "s"
+    new_collection<< "#{item}s"
   end
   collection.insert(1, no_s)
   return collection
