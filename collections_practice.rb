@@ -37,8 +37,8 @@ def sum_array(nums)
 end
 
 def add_s(collection)
-  no_s = collection.slice(2)
-  collection.delete_at(2)
+  no_s = collection.slice(1)
+  collection.delete_at(1)
   new_collection = []
   collection.each do |item|
     new_collection<< "#{item}s"
