@@ -36,3 +36,7 @@ def sum_array(nums)
   return total
 end
 
+def add_s
+  
+end
+
