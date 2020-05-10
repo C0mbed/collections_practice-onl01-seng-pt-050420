@@ -36,7 +36,13 @@ def sum_array(nums)
   return total
 end
 
-def add_s
-  
+def add_s(collection)
+  no_s = collection.slice(2)
+  collection.delete_at(2)
+  collection.each do |item|
+    item + "s"
+  end
+  collection.insert(1, no_s)
+  return collection
 end
 
