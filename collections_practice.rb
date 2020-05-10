@@ -39,8 +39,9 @@ end
 def add_s(collection)
   no_s = collection.slice(2)
   collection.delete_at(2)
+  new_collection = []
   collection.each do |item|
-    item + "s"
+    new_collection<< item + "s"
   end
   collection.insert(1, no_s)
   return collection
