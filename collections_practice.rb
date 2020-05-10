@@ -25,6 +25,6 @@ def kesha_maker(nums)
 end
 
 def find_a(words)
-  
+  words.select{|word| word[0] == "a" || word[0] == "A"}
 end
 
