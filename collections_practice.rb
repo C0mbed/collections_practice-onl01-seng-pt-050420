@@ -43,7 +43,7 @@ def add_s(collection)
   collection.each do |item|
     new_collection<< "#{item}s"
   end
-  collection.insert(1, no_s)
-  return collection
+  new_collection.insert(1, no_s)
+  return new_collection
 end
 
